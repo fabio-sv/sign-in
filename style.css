@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/img/fundo_main.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    padding: 4rem 2rem;
+    border-radius: 1.5rem;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.350);
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
+h1 {
+    margin: 0;
+}
+
+.fm-title {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.fm-social {
+    position: relative;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.div-or {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.fm-icon {
+    padding: .50rem;
+}
+
+
+.fm-div {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 1.5rem;
+    position: relative;
+    height: 40px;
+    margin-bottom: 2rem;
+}
+
+.fm-div>i {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.fm-input {
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.fm-button {
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    padding: .75rem 2rem;
+    border-radius: .5rem;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.fm-button:hover {
+    background-color: #908f912d;
+
+}
